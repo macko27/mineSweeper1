@@ -1,4 +1,5 @@
 package sk.uniza.fri;
+
 /**
  * Created by IntelliJ IDEA.
  * User: macik
@@ -8,6 +9,6 @@ package sk.uniza.fri;
 public class Main {
 
     public static void main(String[] args) {
-        Hra hra = new Hra();
+        new Game();
     }
 }
