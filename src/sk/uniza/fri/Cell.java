@@ -28,6 +28,7 @@ public class Cell extends JButton implements MouseListener {
 
         this.setBounds(0, 0, 100, 100);
         this.setBackground(Constants.BACKGROUND_COLOR);
+        this.setForeground(Constants.TEXT_COLOR);
 
         this.addMouseListener(this);
         this.requestFocus();
